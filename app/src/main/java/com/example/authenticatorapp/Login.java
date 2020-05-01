@@ -47,6 +47,9 @@ public class Login extends AppCompatActivity {
                     Pass.setError("Password is required");
                     return;
                 }
+
+                // Test Comment
+
                 if(password.length()<6)
                 {
                     Pass.setError("Password must be more than 6 characters long");
